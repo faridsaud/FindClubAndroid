@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Find Club</string>
+    <string name="title_activity_discoteca_administrar">discoteca_administrar</string>
+    <string name="title_activity_discoteca_registrar">DiscotecaRegistrar</string>
+</resources>
