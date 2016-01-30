@@ -50,6 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cuenta"
-            android:id="@+id/button5" />
+            android:id="@+id/button5"
+            android:onClick="cuenta" />
     </LinearLayout>
 </RelativeLayout>
