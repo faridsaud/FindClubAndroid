@@ -56,7 +56,8 @@
             android:layout_height="wrap_content"
             android:text="Iniciar Sesión"
             android:id="@+id/button7"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="iniciarSesion" />
 
     </LinearLayout>
 </RelativeLayout>
