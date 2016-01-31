@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ec.edu.epn.findclub" >
+    package="ec.edu.epn.findclub">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".Application.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,46 +29,30 @@
         <activity android:name=".CuentaModificar" />
         <activity android:name=".FiestaAdministrar" />
         <activity android:name=".FiestaResultadosAdministrar" />
-        <activity android:name=".discoteca_home" >
-        </activity>
-        <activity android:name=".pais_home" >
-        </activity>
-        <activity android:name=".discoteca_registrar" >
-        </activity>
-        <activity android:name=".discoteca_modificar" >
-        </activity>
+        <activity android:name=".discoteca_home"></activity>
+        <activity android:name=".pais_home"></activity>
+        <activity android:name=".discoteca_registrar"></activity>
+        <activity android:name=".discoteca_modificar"></activity>
         <activity
             android:name=".discoteca_administrar"
             android:label="@string/title_activity_discoteca_administrar"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity android:name=".pais_registrar" >
-        </activity>
-        <activity android:name=".discoteca_info" >
-        </activity>
-        <activity android:name=".DiscotecaHome" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".pais_registrar"></activity>
+        <activity android:name=".discoteca_info"></activity>
+        <activity android:name=".DiscotecaHome"></activity>
         <activity
             android:name=".DiscotecaRegistrar"
             android:label="@string/title_activity_discoteca_registrar"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity android:name=".DiscotecaInfo" >
-        </activity>
-        <activity android:name=".DiscotecaModificar" >
-        </activity>
-        <activity android:name=".DiscotecaAdministrar" >
-        </activity>
-        <activity android:name=".PaisHome" >
-        </activity>
-        <activity android:name=".PaisRegistrar" >
-        </activity>
-        <activity android:name=".PaisModificar" >
-        </activity>
-        <activity android:name=".PaisAdministrar" >
-        </activity>
-        <activity android:name=".DiscotecaIngresar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".DiscotecaInfo"></activity>
+        <activity android:name=".DiscotecaModificar"></activity>
+        <activity android:name=".DiscotecaAdministrar"></activity>
+        <activity android:name=".PaisHome"></activity>
+        <activity android:name=".PaisRegistrar"></activity>
+        <activity android:name=".PaisModificar"></activity>
+        <activity android:name=".PaisAdministrar"></activity>
+        <activity android:name=".DiscotecaIngresar"></activity>
+        <activity android:name=".CuentaEliminar"></activity>
     </application>
 
 </manifest>

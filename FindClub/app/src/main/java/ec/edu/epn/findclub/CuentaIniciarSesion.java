@@ -57,8 +57,11 @@ public class CuentaIniciarSesion extends AppCompatActivity {
         protected void onPostExecute(Usuario usr) {
             Log.d("Usuario", "onPostExecute: " + usr.getEmail());
             MyApp variables=((MyApp) getApplication());
-            variables.setUsuarioLogeado(usr);
-
+            if(!usr.getEmail().equals("")) {
+                variables.setUsuarioLogeado(usr);
+            }else{
+                variables.setUsuarioLogeado(null);
+            }
         }
     }
 

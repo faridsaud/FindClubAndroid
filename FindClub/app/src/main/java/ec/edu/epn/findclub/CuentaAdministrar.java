@@ -28,23 +28,23 @@ public class CuentaAdministrar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuenta_administrar);
         MyApp variables=((MyApp) getApplication());
-        /*
+
         if(variables.getUsuarioLogeado()==null){
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }else {
             Log.d("Usuario Logeado", "onCreate: " + variables.getUsuarioLogeado().getEmail());
-        }
-        */
-        // Construct the data source
-        ArrayList<Usuario> arrayOfUsers = new ArrayList<Usuario>();
+
+
+            // Construct the data source
+            ArrayList<Usuario> arrayOfUsers = new ArrayList<Usuario>();
 
 // Create the adapter to convert the array to views
-        adapter = new UsuarioAdapter(this, arrayOfUsers);
+            adapter = new UsuarioAdapter(this, arrayOfUsers);
 // Attach the adapter to a ListView
-        ListView listView = (ListView) findViewById(R.id.listView3);
-        listView.setAdapter(adapter);
-
+            ListView listView = (ListView) findViewById(R.id.listView3);
+            listView.setAdapter(adapter);
+        }
     }
     public void buscar(View v){
         new InvocaServicioREST().execute();
@@ -76,10 +76,7 @@ public class CuentaAdministrar extends AppCompatActivity {
                Log.d("lista de usuarios", usr.getEmail());
                adapter.add(usr);
            }
-            /*
-            ArrayList<Usuario> arrayUsuario= new ArrayList<Usuario>(listaUsuarios);
-            arrayOfUsers=arrayUsuario;
-*/
+
         }
 
     }
