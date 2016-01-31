@@ -2,4 +2,15 @@
     <string name="app_name">Find Club</string>
     <string name="title_activity_discoteca_administrar">discoteca_administrar</string>
     <string name="title_activity_discoteca_registrar">DiscotecaRegistrar</string>
+    <string name="cuentaIniciarSesion">Iniciar Sesion</string>
+    <string name="cuentaRegistrar">Registrar</string>
+    <string name="cuentaAdministrar">Administrar</string>
+    <string name="cuentaCerrarSesion">Cerrar Sesion</string>
+    <string name="cuentaCorreoElectronico">Email</string>
+    <string name="cuentaEliminar">Eliminar</string>
+    <string name="cuentaModify">Modificar</string>
+    <string name="cuentaSearch">Buscar</string>
+    <string name="cuentaPassword">Contraseña</string>
+    <string name="cuentaNombre">Nombre</string>
+    <string name="cuentaApellido">Apellido</string>
 </resources>

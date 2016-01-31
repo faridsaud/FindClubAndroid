@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Find Club</string>
+    <string name="title_activity_discoteca_administrar">discoteca_administrar</string>
+    <string name="title_activity_discoteca_registrar">DiscotecaRegistrar</string>
+    <string name="cuentaIniciarSesion">Login</string>
+    <string name="cuentaRegistrar">Register</string>
+    <string name="cuentaAdministrar">Administrate</string>
+    <string name="cuentaCerrarSesion">Logout</string>
+    <string name="cuentaCorreoElectronico">Email</string>
+    <string name="cuentaEliminar">Delete</string>
+    <string name="cuentaModify">Modify</string>
+    <string name="cuentaSearch">Search</string>
+    <string name="cuentaPassword">Password</string>
+    <string name="cuentaNombre">Name</string>
+    <string name="cuentaApellido">Last Name</string>
+</resources>

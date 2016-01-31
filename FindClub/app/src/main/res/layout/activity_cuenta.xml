@@ -18,28 +18,28 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Iniciar Sesión"
+            android:text="@string/cuentaIniciarSesion"
             android:id="@+id/button"
             android:onClick="iniciarSesion" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrar"
+            android:text="@string/cuentaRegistrar"
             android:id="@+id/button2"
             android:onClick="registrar" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Administrar"
+            android:text="@string/cuentaAdministrar"
             android:id="@+id/button3"
             android:onClick="administrar" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cerrar Sesión"
+            android:text="@string/cuentaCerrarSesion"
             android:id="@+id/button4"
             android:onClick="cerrarSesion" />
 

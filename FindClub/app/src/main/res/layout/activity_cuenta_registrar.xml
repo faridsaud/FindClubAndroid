@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Email"
+            android:text="@string/cuentaCorreoElectronico"
             android:id="@+id/textView" />
 
         <EditText
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Contraseña"
+            android:text="@string/cuentaPassword"
             android:id="@+id/textView2" />
 
         <EditText
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Nombre"
+            android:text="@string/cuentaNombre"
             android:id="@+id/textView3" />
 
         <EditText
@@ -76,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Apellido"
+            android:text="@string/cuentaApellido"
             android:id="@+id/textView4" />
 
         <EditText
@@ -89,7 +89,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registrar"
+            android:text="@string/cuentaRegistrar"
             android:id="@+id/button7"
             android:layout_gravity="center_horizontal"
             android:onClick="registrar" />
