@@ -90,9 +90,10 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registrar"
+            android:text="Modificar"
             android:id="@+id/button7"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="actualizar" />
 
     </LinearLayout>
 
