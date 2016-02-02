@@ -12,4 +12,10 @@ public class CiudadAdministrar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ciudad_administrar);
     }
+
+    /**
+     * Created by Penelope on 01/02/2016.
+     */
+    public static class FiestaEliminar {
+    }
 }

@@ -9,11 +9,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ec.edu.epn.findclub.FiestaResultadosAdministrar">
 
-    <ExpandableListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/expandableListView3"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtFiestaView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnViewFiestaModificar"
+            android:src="@android:drawable/ic_menu_edit"
+            android:longClickable="false" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnViewFiestaEliminar"
+            android:src="@android:drawable/ic_menu_delete" />
+
+        <ScrollView
+            android:layout_width="12dp"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_vertical"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true"/>
+
+    </LinearLayout>
 </RelativeLayout>

@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import ec.edu.epn.findclub.Application.MyApp;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -19,4 +21,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void fiesta (View view){
+        MyApp app = ((MyApp) getApplication());
+        if (app.getUsuarioLogeado() != null) {
+            Intent intent = new Intent(this, FiestaHome.class);
+            startActivity(intent);
+        }
+    }
 }

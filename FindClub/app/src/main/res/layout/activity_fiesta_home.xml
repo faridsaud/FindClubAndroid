@@ -18,14 +18,16 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrar"
-            android:id="@+id/button2" />
+            android:text="@string/registrar"
+            android:id="@+id/btnFiestaHomeRegistrar"
+            android:onClick="registrarFiesta" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Administrar"
-            android:id="@+id/button3" />
+            android:text="@string/administrar"
+            android:id="@+id/btnFiestaHomeAdministrar"
+            android:onClick="administrarFiesta" />
 
     </LinearLayout>
 

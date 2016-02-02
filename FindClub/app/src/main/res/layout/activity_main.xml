@@ -25,8 +25,9 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Fiesta"
-            android:id="@+id/button2" />
+            android:text="@string/fiesta"
+            android:id="@+id/button2"
+            android:onClick="fiesta" />
 
         <Button
             android:layout_width="match_parent"

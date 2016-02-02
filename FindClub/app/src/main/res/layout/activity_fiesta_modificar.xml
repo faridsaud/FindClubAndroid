@@ -30,31 +30,7 @@
             android:layout_height="wrap_content"
             android:inputType="text"
             android:ems="10"
-            android:id="@+id/editText" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Ciudad"
-            android:id="@+id/textView6" />
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="País"
-            android:id="@+id/textView7" />
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner2" />
+            android:id="@+id/txtModificarFiesta" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -66,7 +42,21 @@
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/spinner3" />
+            android:id="@+id/cmbModificarDiscoteca" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Fecha"
+            android:id="@+id/textView11" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/txtModificarFecha" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -80,7 +70,7 @@
             android:layout_height="wrap_content"
             android:inputType="time"
             android:ems="10"
-            android:id="@+id/editText6" />
+            android:id="@+id/txtModificarHora" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -92,14 +82,15 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText7" />
+            android:id="@+id/txtModificarDeescripcion" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registrar"
-            android:id="@+id/button7"
-            android:layout_gravity="center_horizontal" />
+            android:text="Modificar"
+            android:id="@+id/btnModificar"
+            android:layout_gravity="center_horizontal"
+            android:onClick="modificarFiesta" />
 
     </LinearLayout>
 

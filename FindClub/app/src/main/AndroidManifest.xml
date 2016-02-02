@@ -53,6 +53,7 @@
         <activity android:name=".PaisAdministrar"></activity>
         <activity android:name=".DiscotecaIngresar"></activity>
         <activity android:name=".CuentaEliminar"></activity>
+        <activity android:name=".FiestaEliminar"></activity>
     </application>
 
 </manifest>
