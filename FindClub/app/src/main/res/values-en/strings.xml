@@ -22,4 +22,8 @@
     <string name="buscar">Search</string>
     <string name="nombre">Name</string>
     <string name="registrar">Register</string>
+    <string name="Discoteca">Club</string>
+    <string name="imagen">Image</string>
+    <string name="verFiestas">List Parties</string>
+    <string name="Cuenta">Account</string>
 </resources>

@@ -28,4 +28,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+    public void discotecaHome(View view){
+
+        Intent intent = new Intent(this, DiscotecaHome.class);
+        startActivity(intent);
+    }
 }

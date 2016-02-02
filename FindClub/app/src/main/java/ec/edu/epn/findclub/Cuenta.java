@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import ec.edu.epn.findclub.Application.MyApp;
+
 public class Cuenta extends AppCompatActivity {
 
     @Override
@@ -19,8 +21,8 @@ public class Cuenta extends AppCompatActivity {
     }
 
     public void cerrarSesion(View view){
-        Intent intent = new Intent(this, Cuenta.class);
-        startActivity(intent);
+        MyApp variables=((MyApp) getApplication());
+        variables.setUsuarioLogeado(null);
     }
 
     public void registrar(View view){

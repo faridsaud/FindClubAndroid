@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Nombre"
+            android:text="@string/nombre"
             android:id="@+id/textView" />
 
         <EditText
@@ -55,7 +55,9 @@
         <ListView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/listViewAdministrarFiesta" />
+            android:id="@+id/listViewAdministrarFiesta"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true"/>
 
     </LinearLayout>
 

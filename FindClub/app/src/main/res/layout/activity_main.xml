@@ -19,8 +19,10 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Discoteca"
-            android:id="@+id/button" />
+            android:text="@string/Discoteca"
+            android:id="@+id/button"
+            android:onClick="discotecaHome"/>
+
 
         <Button
             android:layout_width="match_parent"
@@ -32,25 +34,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Musica"
-            android:id="@+id/button3" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="País"
-            android:id="@+id/button4" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Ciudad"
-            android:id="@+id/button6" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Cuenta"
+            android:text="@string/Cuenta"
             android:id="@+id/button5"
             android:onClick="cuenta" />
     </LinearLayout>

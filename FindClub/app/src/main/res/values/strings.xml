@@ -22,4 +22,9 @@
     <string name="administrar">Administrar</string>
     <string name="fiesta">Fiesta</string>
     <string name="buscar">Buscar</string>
+    <string name="Discoteca">Discoteca</string>
+    <string name="imagen">Imagen</string>
+    <string name="verFiestas">Ver Fiestas</string>
+    <string name="Cuenta">Cuenta</string>
+
 </resources>

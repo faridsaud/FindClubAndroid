@@ -7,7 +7,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ec.edu.epn.findclub.FiestaModificar">
+    android:background="#424242"
+    tools:context="ec.edu.epn.findclub.FiestaRegistrar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -17,12 +22,22 @@
         android:layout_alignParentStart="true"
         android:weightSum="1">
 
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- Content here -->
+            </LinearLayout>
+        </ScrollView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/nombre"
-            android:editable="false"
             android:id="@+id/textView" />
 
         <EditText
@@ -30,7 +45,7 @@
             android:layout_height="wrap_content"
             android:inputType="text"
             android:ems="10"
-            android:id="@+id/txtModificarFiesta" />
+            android:id="@+id/txtFieRegNombre" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -42,14 +57,14 @@
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/cmbModificarDiscoteca"
-            android:background="#009688"/>
+            android:id="@+id/cmbFieRegDiscoteca"
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/fiesta"
+            android:text="@string/fecha"
             android:id="@+id/textView11" />
 
         <EditText
@@ -57,7 +72,7 @@
             android:layout_height="wrap_content"
             android:inputType="date"
             android:ems="10"
-            android:id="@+id/txtModificarFecha" />
+            android:id="@+id/txtFieRegFecha" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -71,7 +86,7 @@
             android:layout_height="wrap_content"
             android:inputType="time"
             android:ems="10"
-            android:id="@+id/txtModificarHora" />
+            android:id="@+id/txtFieRegHora" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -83,16 +98,17 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/txtModificarDeescripcion" />
+            android:id="@+id/txtFieRegDescripcion" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cuentaModify"
-            android:id="@+id/btnModificar"
+            android:text="@string/registrar"
+            android:id="@+id/btnFiestaRegistrar"
             android:layout_gravity="center_horizontal"
-            android:onClick="modificarFiesta" />
+            android:onClick="registrar" />
 
     </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

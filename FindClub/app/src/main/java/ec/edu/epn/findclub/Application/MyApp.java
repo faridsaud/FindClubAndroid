@@ -9,7 +9,7 @@ import ec.edu.epn.findclub.VO.Usuario;
  */
 public class MyApp extends Application {
     private Usuario usuarioLogeado;
-    private String urlServicio="http://192.168.2.149:8080/FindClub/REST";
+    private String urlServicio="http://172.30.24.55:8080/FindClub/REST";
 
     public Usuario getUsuarioLogeado() {
         return usuarioLogeado;

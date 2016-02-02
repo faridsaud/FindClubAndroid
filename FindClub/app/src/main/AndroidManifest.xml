@@ -40,6 +40,7 @@
         <activity android:name=".DiscotecaIngresar"/>
         <activity android:name=".CuentaEliminar"/>
         <activity android:name=".FiestaEliminar"/>
+        <activity android:name=".DiscotecaEliminar"/>
     </application>
 
 </manifest>

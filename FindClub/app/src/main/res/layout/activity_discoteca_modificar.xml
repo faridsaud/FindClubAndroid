@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Discoteca"
+            android:text="@string/Discoteca"
             android:id="@+id/textView21" />
 
         <EditText
@@ -29,40 +29,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pais"
-            android:id="@+id/textView22" />
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner7" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Ciudad"
-            android:id="@+id/textView23" />
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner8" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tipo de música"
-            android:id="@+id/textView24" />
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner9" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Descripción"
+            android:text="@string/descripcion"
             android:id="@+id/textView25" />
 
         <EditText
@@ -73,20 +40,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Imagen"
+            android:text="@string/imagen"
             android:id="@+id/textView26" />
 
-        <ImageButton
-            android:layout_width="53dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton"
-            android:layout_weight="0.29"
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView3"
             android:src="@android:drawable/ic_menu_camera" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Modificar"
-            android:id="@+id/button11" />
+            android:text="@string/cuentaModify"
+            android:id="@+id/button11"
+            android:layout_gravity="center_horizontal"
+            android:onClick="actualizarDisco"/>
     </LinearLayout>
 </RelativeLayout>

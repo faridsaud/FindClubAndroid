@@ -19,59 +19,26 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Discoteca"
+            android:text="@string/Discoteca"
             android:id="@+id/textView16" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText9" />
+            android:id="@+id/editText9"
+            android:editable="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="País"
-            android:id="@+id/textView17" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText10"
-            android:layout_gravity="center_horizontal" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Ciudad"
-            android:id="@+id/textView18" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText11"
-            android:layout_gravity="center_horizontal" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tipo de música"
-            android:id="@+id/textView19" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText12" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Descripción"
+            android:text="@string/descripcion"
             android:id="@+id/textView20" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText13" />
+            android:id="@+id/editText13"
+            android:editable="true" />
 
         <ImageView
             android:layout_width="191dp"
@@ -81,11 +48,5 @@
             android:src="@drawable/images"
             android:layout_weight="0.51" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Ver fiestas"
-            android:id="@+id/button10"
-            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 </RelativeLayout>
