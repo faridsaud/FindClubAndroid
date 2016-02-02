@@ -1,5 +1,6 @@
 package ec.edu.epn.findclub;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -51,6 +52,8 @@ public class FiestaModificar extends AppCompatActivity {
             fiesta.setHora(txtHora.getText().toString());
             fiesta.setDescripcion(txtDescripcion.getText().toString());
             new ModificarFiesta().execute();
+            Intent intent = new Intent(this, FiestaHome.class);
+            startActivity(intent);
         } catch (Exception e){
             Log.e("Modificar fiesta", e.getMessage(), e);
         }
@@ -114,17 +117,18 @@ public class FiestaModificar extends AppCompatActivity {
             return null;
         }
 
-        protected void onPostExecute(Fiesta fiesta){
+        protected void onPostExecute(Fiesta result){
             Log.d("LLenar Fiesta", "onPostExecute: " + fiesta.getNombreFiesta());
+            fiesta.setIdFiesta(result.getIdFiesta());
             Spinner comboDiscoteca = (Spinner) findViewById(R.id.cmbModificarDiscoteca);
             EditText txtNombre = (EditText) findViewById(R.id.txtModificarFiesta);
             EditText txtFecha = (EditText) findViewById(R.id.txtModificarFecha);
             EditText txtHora = (EditText) findViewById(R.id.txtModificarHora);
             EditText txtDescripcion = (EditText) findViewById(R.id.txtModificarDeescripcion);
-            txtNombre.setText(fiesta.getNombreFiesta());
-            txtFecha.setText(fiesta.getFecha());
-            txtHora.setText(fiesta.getHora());
-            txtDescripcion.setText(fiesta.getDescripcion());
+            txtNombre.setText(result.getNombreFiesta());
+            txtFecha.setText(result.getFecha());
+            txtHora.setText(result.getHora());
+            txtDescripcion.setText(result.getDescripcion());
         }
     }
 
@@ -139,7 +143,7 @@ public class FiestaModificar extends AppCompatActivity {
                 RestTemplate restTemplate = new RestTemplate();
                 restTemplate.getMessageConverters().add(new StringHttpMessageConverter());
                 String mensaje = (String) restTemplate.getForObject(url, String.class);
-                return mensaje + "\nSe ha enviado:\n\t" + fiesta.getEmail() + "\n\t" + fiesta.getNombreFiesta() + "\n\t" + fiesta.getIdDiscoteca()
+                return mensaje + "\nSe ha enviado:\n\t" + fiesta.getIdFiesta() + "\n\t" + fiesta.getNombreFiesta() + "\n\t" + fiesta.getIdDiscoteca()
                         + "\n\t" + fiesta.getFecha() + "\t\n" + fiesta.getHora() + "\n\t" + fiesta.getDescripcion();
             }catch (Exception e){
                 Log.e("Modificar fiesta", e.getMessage(), e);
