@@ -29,31 +29,17 @@
         <activity android:name=".CuentaModificar" />
         <activity android:name=".FiestaAdministrar" />
         <activity android:name=".FiestaResultadosAdministrar" />
-        <activity android:name=".discoteca_home"></activity>
-        <activity android:name=".pais_home"></activity>
-        <activity android:name=".discoteca_registrar"></activity>
-        <activity android:name=".discoteca_modificar"></activity>
-        <activity
-            android:name=".discoteca_administrar"
-            android:label="@string/title_activity_discoteca_administrar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".pais_registrar"></activity>
-        <activity android:name=".discoteca_info"></activity>
-        <activity android:name=".DiscotecaHome"></activity>
-        <activity
-            android:name=".DiscotecaRegistrar"
-            android:label="@string/title_activity_discoteca_registrar"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".DiscotecaInfo"></activity>
-        <activity android:name=".DiscotecaModificar"></activity>
-        <activity android:name=".DiscotecaAdministrar"></activity>
-        <activity android:name=".PaisHome"></activity>
-        <activity android:name=".PaisRegistrar"></activity>
-        <activity android:name=".PaisModificar"></activity>
-        <activity android:name=".PaisAdministrar"></activity>
-        <activity android:name=".DiscotecaIngresar"></activity>
-        <activity android:name=".CuentaEliminar"></activity>
-        <activity android:name=".FiestaEliminar"></activity>
+        <activity android:name=".DiscotecaHome"/>
+        <activity android:name=".DiscotecaInfo"/>
+        <activity android:name=".DiscotecaModificar"/>
+        <activity android:name=".DiscotecaAdministrar"/>
+        <activity android:name=".PaisHome"/>
+        <activity android:name=".PaisRegistrar"/>
+        <activity android:name=".PaisModificar"/>
+        <activity android:name=".PaisAdministrar"/>
+        <activity android:name=".DiscotecaIngresar"/>
+        <activity android:name=".CuentaEliminar"/>
+        <activity android:name=".FiestaEliminar"/>
     </application>
 
 </manifest>
