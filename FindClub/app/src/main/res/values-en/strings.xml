@@ -13,4 +13,13 @@
     <string name="cuentaPassword">Password</string>
     <string name="cuentaNombre">Name</string>
     <string name="cuentaApellido">Last Name</string>
+    <string name="administrar">Management</string>
+    <string name="descripcion">Description</string>
+    <string name="discoteca">Discoteque</string>
+    <string name="fecha">Date</string>
+    <string name="fiesta">Party</string>
+    <string name="hora">Time</string>
+    <string name="buscar">Search</string>
+    <string name="nombre">Name</string>
+    <string name="registrar">Register</string>
 </resources>
